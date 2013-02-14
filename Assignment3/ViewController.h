@@ -18,6 +18,10 @@
 
 @property (nonatomic, weak) IBOutlet UIButton * selectAll;
 
+@property (nonatomic, weak) IBOutlet UIButton * RemoveAll;
+@property (nonatomic, weak) IBOutlet UIButton * fill;
+
+
 -(IBAction)selectAllOrNone:(id)sender;
 
 
